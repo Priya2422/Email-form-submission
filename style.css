@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(
+  45deg,
+  hsl(240deg 60% 21%) 20%,
+  hsl(278deg 56% 22%) 61%,
+  hsl(306deg 51% 25%) 76%,
+  hsl(325deg 49% 32%) 85%,
+  hsl(338deg 44% 39%) 91%,
+  hsl(351deg 37% 46%) 95%,
+  hsl(4deg 36% 52%) 98%,
+  hsl(15deg 42% 55%) 100%,
+  hsl(24deg 46% 58%) 101%,
+  hsl(32deg 48% 61%) 101%,
+  hsl(42deg 47% 65%) 101%,
+  hsl(55deg 43% 69%) 100%
+);
+}
+.main{
+  
+    border: 1px solid #000;
+  min-height: 400px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(238, 238, 238);
+    border-radius: 0.3rem;
+    box-shadow: 0 0 100px rgb(0, 0, 0);;
+}
+.mail{
+    min-width: 273px;
+    min-height: 273px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    justify-content: space-between;
+}
+
+input{
+    border-width: 0.5px;
+    background-color: #fff;
+    padding: 0.2rem;
+    font-size: 1rem;
+    border-color: #b15e59;
+    opacity: 35%;
+}
+textarea{
+    border-color: #b15e59;
+    padding: 0.2rem;
+    background-color: #fff;
+    opacity: 35%;
+}
+button{
+    padding: 0.4rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background-image: linear-gradient(
+        45deg,
+        hsl(240deg 60% 21%) 20%,
+        hsl(278deg 56% 22%) 61%,
+        hsl(306deg 51% 25%) 76%,
+        hsl(325deg 49% 32%) 85%,
+        hsl(338deg 44% 39%) 91%,
+        hsl(351deg 37% 46%) 95%,
+        hsl(4deg 36% 52%) 98%,
+        hsl(15deg 42% 55%) 100%,
+        hsl(24deg 46% 58%) 101%,
+        hsl(32deg 48% 61%) 101%,
+        hsl(42deg 47% 65%) 101%,
+        hsl(55deg 43% 69%) 100%
+      );
+      color: #fff;
+      font-weight: bolder;
+      border-color: #ffb0b0;
+}
+.bu{
+    text-align: center;
+}
+#butt{
+    margin-top: 1rem;
+   
+}
+button:hover,
+button:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em #0000007d;
+  transform: translateY(-0.25em);
+}
+
+input:active,
+input:focus {
+   outline-color: #401958;
+   opacity: 100%;
+}
+textarea:active,
+textarea:focus {
+   outline-color: #401958;
+   opacity: 100%;
+}
